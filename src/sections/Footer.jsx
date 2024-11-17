@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/footer-logo.png";
 
 const Footer = () => {
     return (
@@ -6,7 +7,9 @@ const Footer = () => {
             <div className="max-w-7xl mx-auto px-4 md:flex justify-between">
                 {/* Logo and Address Section */}
                 <div className="mb-6 md:mb-0">
-                    <h2 className="text-2xl font-bold">Diagno-Sure</h2>
+                    <div className="w-[151px] h-[58px] md:w-[228px] md:h-[87px]">
+                        <img src={logo} className="w-full h-full" alt="Logo" />
+                    </div>
                     <p className="mt-1">Pay Right, Smile Bright!</p>
                     <address className="mt-4 not-italic">
                         Diagnosure LLC<br />
