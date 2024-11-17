@@ -14,7 +14,7 @@ function App() {
       <Home />
       <HowItWorks />
       <Features />
-      <Partner />
+      {/* <Partner /> */}
       <Form />
       <Tagline />
     </div>
