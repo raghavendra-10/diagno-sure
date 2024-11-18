@@ -1,28 +1,22 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Features from "./sections/Features";
-import Footer from "./sections/Footer";
-import Form from "./sections/Form";
-import Home from "./sections/Home";
-import HowItWorks from "./sections/HowItWorks";
-import Partner from "./sections/Partner";
-import Tagline from "./sections/Tagline";
 import "./App.css";
+import Dentist from "./pages/Dentist";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Patients from "./pages/Patients";
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Dentist />,
+  },
+  {
+    path: "/patients",
+    element: <Patients />,
+  },
+]);
 
 function App() {
-  return (
-    <div className="w-screen overflow-x-hidden min-h-screen">
-      <Navbar />
-      <Home />
-      <HowItWorks />
-      <Features />
-      <Partner />
-      <Form />
-      <Tagline />
-      <Footer/>
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
