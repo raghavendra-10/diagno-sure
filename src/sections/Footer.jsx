@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
 
         {/* Links Section */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-12">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-0">
           <div>
             <h4 className="font-semibold mb-2">Resources</h4>
             <ul className="space-y-2">
