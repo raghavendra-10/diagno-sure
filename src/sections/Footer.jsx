@@ -4,7 +4,7 @@ import logo from "../assets/footer-logo.png";
 const Footer = () => {
   return (
     <div className="bg-[#212529] text-white py-10">
-      <div className="max-w-7xl mx-auto px-4 md:flex justify-between">
+      <div className="max-w-7xl mx-auto px-4 md:px-0 md:flex justify-between">
         {/* Logo and Address Section */}
         <div className="mb-6 md:mb-0">
           <div className="w-[151px] h-[58px] md:w-[228px] md:h-[87px]">
@@ -33,18 +33,13 @@ const Footer = () => {
         </div>
 
         {/* Links Section */}
-        <div className="grid grid-cols-2 gap-8 md:flex md:space-x-12">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-12">
           <div>
             <h4 className="font-semibold mb-2">Resources</h4>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="hover:underline">
                   Home
-                </a>
-              </li>
-              <li>
-                <a href="#partners" className="hover:underline">
-                  About Us
                 </a>
               </li>
               <li>
@@ -55,26 +50,6 @@ const Footer = () => {
               <li>
                 <a href="#faqs" className="hover:underline">
                   FAQ
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="font-semibold mb-2">Company</h4>
-            <ul className="space-y-2">
-              <li>
-                <a href="#" className="hover:underline">
-                  Media
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Testimonial
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Contact Us
                 </a>
               </li>
             </ul>
@@ -92,12 +67,25 @@ const Footer = () => {
                   Terms of Use
                 </a>
               </li>
+              
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-semibold mb-2">Company</h4>
+            <ul className="space-y-2">
               <li>
-                <a
-                  href="mailto:support@diagnosure.com"
-                  className="hover:underline"
-                >
-                  support@diagnosure.com
+                <a href="#partners" className="hover:underline">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:underline">
+                  Testimonial
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:underline">
+                  Contact Us - support@diagnosure.com
                 </a>
               </li>
             </ul>

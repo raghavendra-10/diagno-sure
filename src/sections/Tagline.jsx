@@ -10,10 +10,10 @@ const Tagline = () => {
       <div className="w-full  pr-5 lg:pr-0">
         <img src={tagline} className="w-full h-auto" />
       </div>
-      <p className="p-4 text-2xl text-center font-bold pr-5 lg:pr-0">
+      {/* <p className="p-4 text-2xl text-center font-bold pr-5 lg:pr-0">
         Save Right, Smile Bright. At Diagno-Sure, we help patients make smarter
         dental decisions.”
-      </p>
+      </p> */}
       <div className="mt-4 pr-5 lg:pr-0">
         <h3 className="text-base">Terms of Use & Disclaimer:</h3>
         <p className="text-sm mt-4">

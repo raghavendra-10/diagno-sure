@@ -5,15 +5,15 @@ import { FaRegCalendarCheck } from "react-icons/fa6";
 
 function HowItWorks() {
   return (
-    <section id="howItWorks" className="bg-white w-full pt-4 pb-12">
-      <div className="w-full px-4 lg:w-[992px] xl:w-[1140px] mx-auto">
+    <section id="howItWorks" className="bg-white w-full pt-14 pb-16">
+      <div className="w-full px-3 md:px-0 lg:w-[992px] xl:w-[1140px] mx-auto">
         <div className="mt-8 mb-10">
           <h2 className="text-blue text-2xl font-normal text-center">
             How It Works!
           </h2>
           <div className="h-[3px] w-8 bg-blue m-auto mt-8"></div>
         </div>
-        <div className="flex flex-col lg:flex-row mt-5 gap-4">
+        <div className="flex flex-col lg:flex-row mt-6 gap-14">
           <Card
             heading="1. Find an Affiliate Dentist Near You"
             desc="Share your current treatment plan and X-rays with a dentist in our network. It’s quick, secure, and helps the dentist understand your needs."

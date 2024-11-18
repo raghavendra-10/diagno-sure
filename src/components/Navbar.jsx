@@ -46,15 +46,15 @@ const Navbar = () => {
                 "/"
               )}`}
             >
-              <div className="text-xs md:text-base font-normal">Dentist</div>
+              <div className="text-xs md:text-base font-normal">Patients</div>
             </Link>
             <Link
-              to="/patients"
+              to="/dentist"
               className={`rounded-md py-2 px-3 md:py-3 md:px-8 flex items-center justify-center gap-3 ${getLinkClasses(
-                "/patients"
+                "/dentist"
               )}`}
             >
-              <div className="text-xs md:text-base font-normal">Patients</div>
+              <div className="text-xs md:text-base font-normal">Dentist</div>
             </Link>
           </div>
 
