@@ -58,12 +58,12 @@ const Footer = () => {
             <h4 className="font-semibold mb-2">Legal</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="hover:underline">
+                <a href="/privacyPolicy" className="hover:underline">
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="/termsOfUse" className="hover:underline">
                   Terms of Use
                 </a>
               </li>
