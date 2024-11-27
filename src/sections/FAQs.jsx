@@ -86,7 +86,7 @@ const Accordian = ({ question, answer, open, handleClick }) => {
           open ? "border-b border-b-blue2" : ""
         }`}
       >
-        <div className="text-base font-normal text-black">
+        <div className="text-base font-normal text-black flex-shrink-0">
           {open ? <TiArrowSortedUp /> : <TiArrowSortedDown />}
         </div>
         <div className={`ml-6 text-base font-normal text-black}`}>
