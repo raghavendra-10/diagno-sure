@@ -24,19 +24,7 @@ function Home() {
             <span className="text-orange">FREE Dental Second Opinion</span>{" "}
             <br /> from home, quick and easy.
           </h2>
-          {/* <div className="flex flex-col mt-6 space-y-2">
-            <input
-              type="text"
-              placeholder="Enter Your Zip Code"
-              className=" border-gray-300 px-4 py-4 w-64 text-gray-600"
-            />
-            <button
-              onClick={handleButtonClick}
-              className="bg-orange text-white px-6 py-4 hover:bg-orange-600"
-            >
-              Find a Dentist Near Me
-            </button>
-          </div> */}
+          
           <div className="mt-4 w-full">
             <img src={home1} className="w-full h-auto" />
           </div>
