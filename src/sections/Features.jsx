@@ -1,7 +1,7 @@
 import React from "react";
-import features1 from "../assets/features-1.png";
-import features2 from "../assets/features-2.png";
-import contracts from '../assets/contracts.jpg'
+import contracts from "../assets/contract.png";
+import cashlessPayment from "../assets/cashless-payment.png";
+import medicalReport from "../assets/medical-report.png";
 
 function Features() {
   return (
@@ -42,29 +42,29 @@ function Features() {
               <p className="text-gray-600">A Second Opinion may help you avoid unnecessary or over-aggressive procedures, potentially saving you money on treatments you don’t need.</p>
             </div> */}
             <Card
-        image={contracts}
-        title="No Contracts or Commitments"
-        description="Dental Second Opinions provide straightforward pricing and payment plans. Dental savings plans involve signing up for contracts."
-        bgColor="bg-blue-100"
-      />
-      <Card
-        image={contracts}
-        title="Customization of Treatment Plans"
-        description="Second Opinions may provide personalized treatment options tailored to your unique goals."
-        bgColor="bg-blue-200"
-      />
-      <Card
-        image={contracts}
-        title="Customizable Payment Plans"
-        description="Our partner clinics support payment flexibility, unlike savings plans that may offer fixed discounts on immediate payments."
-        bgColor="bg-blue-300"
-      />
-      <Card
-        image={contracts}
-        title="Avoid Unnecessary Treatments"
-        description="A Second Opinion may help you avoid unnecessary or over-aggressive procedures, potentially saving you money on treatments you don’t need."
-        bgColor="bg-blue-400"
-      />
+              image={contracts}
+              title="No Contracts or Commitments"
+              description="Dental Second Opinions provide straightforward pricing and payment plans. Dental savings plans involve signing up for contracts."
+              bgColor="bg-gr-100"
+            />
+            <Card
+              image={cashlessPayment}
+              title="Customization of Treatment Plans"
+              description="Second Opinions may provide personalized treatment options tailored to your unique goals."
+              bgColor="bg-blue-200"
+            />
+            <Card
+              image={medicalReport}
+              title="Customizable Payment Plans"
+              description="Our partner clinics support payment flexibility, unlike savings plans that may offer fixed discounts on immediate payments."
+              bgColor="bg-blue-300"
+            />
+            <Card
+              image={contracts}
+              title="Avoid Unnecessary Treatments"
+              description="A Second Opinion may help you avoid unnecessary or over-aggressive procedures, potentially saving you money on treatments you don’t need."
+              bgColor="bg-blue-400"
+            />
           </div>
         </div>
       </div>
@@ -76,12 +76,10 @@ export default Features;
 
 const Card = ({ image, title, description, bgColor }) => {
   return (
-    <div className={`flex-1 min-w-[calc(50%-1rem)] ${bgColor} p-4 rounded shadow`}>
+    <div className={`flex-1 min-w-[calc(50%-1rem)] bg-grey p-4 rounded shadow`}>
       <div className="flex flex-row items-start gap-2 border-b border-b-black pb-4 mb-4">
         <img src={image} alt={title} className="w-12 h-12 flex-shrink-0" />
-        <h3 className="text-lg font-semibold">
-          {title}
-        </h3>
+        <h3 className="text-lg font-semibold">{title}</h3>
       </div>
       {/* Description visible on larger screens */}
       <p className="text-gray-600">{description}</p>

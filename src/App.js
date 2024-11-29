@@ -2,26 +2,26 @@ import "./App.css";
 import "./App.css";
 import Dentist from "./pages/Dentist";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Patients from "./pages/Patients";
+import Patients from "./pages/Patient";
 import PrivacyPolicy from "./sections/PrivacyPolicy";
 import TermsOfUse from "./sections/TermsOfUse";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/dentist",
     element: <Dentist />,
   },
   {
-    path: "/patients",
+    path: "/",
     element: <Patients />,
   },
   {
-    path: '/privacyPolicy',
-    element: <PrivacyPolicy />
+    path: "/privacyPolicy",
+    element: <PrivacyPolicy />,
   },
   {
-    path: '/termsOfUse',
-    element: <TermsOfUse />
+    path: "/termsOfUse",
+    element: <TermsOfUse />,
   },
 ]);
 
