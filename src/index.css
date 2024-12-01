@@ -13,6 +13,14 @@
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  display: none; /* Hides scrollbar in WebKit browsers */
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* Hides scrollbar in IE/Edge */
+  scrollbar-width: none; /* Hides scrollbar in Firefox */
+}
+
 body {
   width: 100vw;
   max-width: 100vw;

@@ -16,10 +16,18 @@ module.exports = {
       blue2: "rgb(76, 181, 171)",
       skyBlue: "rgba(3, 155, 229, 0.05)",
       borderGrey: "rgb(231, 231, 231)",
+      primaryBlue90: "#01344C",
+      neutral60: "#5F5F5F",
+      neutral5: "#E7E7E7",
+      neutral20: '#CFCFCF',
+      neutral30: "#B1B1B1",
+      neutral80: "#2D2D2D",
+      neutral60: '#5f5f5f',
+      primaryBlue60: '#0381BF'
     },
     fontFamily: {
       outfit: ["Outfit", "sans-serif"],
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar'),],
 };

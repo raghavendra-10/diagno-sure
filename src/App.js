@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Patients from "./pages/Patient";
 import PrivacyPolicy from "./sections/PrivacyPolicy";
 import TermsOfUse from "./sections/TermsOfUse";
+import Locations from "./pages/Locations";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
     path: "/termsOfUse",
     element: <TermsOfUse />,
   },
+  {
+    path: '/locations',
+    element: <Locations />
+  }
 ]);
 
 function App() {
