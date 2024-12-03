@@ -6,7 +6,7 @@ import Button from "./Button";
 
 function ProfileCard() {
   return (
-    <div className="rounded-xl border border-neutral20 p-6 min-h-max">
+    <div className="rounded-xl border border-neutral20 p-6 flex-shrink-0 cursor-pointer hover:border-primaryBlue60">
       <div className="flex flex-col md:flex-row gap-6">
         <div className="w-32 h-32 rounded-full overflow-hidden">
           <img src={Profile} className="w-full h-full" />
